@@ -1,0 +1,50 @@
+ ------
+ Introduction
+ ------
+ Brian Matthews
+ ------
+ 2013-06-15
+ ------
+
+~~ Copyright 2013 Brian Thomas Matthews
+~~
+~~ Licensed under the Apache License, Version 2.0 (the "License");
+~~ you may not use this file except in compliance with the License.
+~~ You may obtain a copy of the License at
+~~
+~~     http://www.apache.org/licenses/LICENSE-2.0
+~~
+~~ Unless required by applicable law or agreed to in writing, software
+~~ distributed under the License is distributed on an "AS IS" BASIS,
+~~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+~~ See the License for the specific language governing permissions and
+~~ limitations under the License.
+
+
+JUnit Rules
+
+  <<JUnit Rules>> is a library of {{{http://junit.org}JUnit}} rules that enhance JUnit test cases.
+
+  * {{{./examples/logging-rule.html}LoggingRule}} generates log messages delineating the start and finish of
+    each test case. Exceptions are also logged.
+
+  []
+
+* Maven Coordinates
+
+  The <<JUnit Rules>> has been published in {{{http://search.maven.org}Maven Central}} at the following
+  coordinates:
+
+-------------------
+<dependency>
+    <groupId>${project.groupId}</groupId>
+    <artifactId>${project.artifactId}</artifactId>
+    <version>${project.version}</version>
+</dependency>
+-------------------
+
+* Licensing and Source Code
+
+  The <<JUnit Rules>> is made available under the
+  {{{http://www.apache.org/licenses/LICENSE-2.0.html}Apache License}} and the source code is hosted on
+  {{{http://github.com}GitHub}} at {{https://github.com/bmatthews68/junit-rules}}.
