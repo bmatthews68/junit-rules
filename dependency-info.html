@@ -3,15 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>JUnit Rules - Introduction</title>
+    <title>JUnit Rules - Dependency Information</title>
     <style type="text/css" media="all">
       @import url("./css/maven-base.css");
       @import url("./css/maven-theme.css");
       @import url("./css/site.css");
     </style>
     <link rel="stylesheet" href="./css/print.css" type="text/css" media="print" />
-      <meta name="author" content="Brian Matthews" />
-    <meta name="Date-Creation-yyyymmdd" content="20130615" />
     <meta name="Date-Revision-yyyymmdd" content="20130615" />
     <meta http-equiv="Content-Language" content="en" />
         
@@ -63,8 +61,8 @@
                                 <h5>Overview</h5>
                   <ul>
                   <li class="none">
-            <strong>Introduction</strong>
-          </li>
+                          <a href="index.html" title="Introduction">Introduction</a>
+            </li>
           </ul>
                        <h5>Examples</h5>
                   <ul>
@@ -78,8 +76,8 @@
                           <a href="project-info.html" title="Project Information">Project Information</a>
                     <ul>
                       <li class="none">
-            <strong>About</strong>
-          </li>
+                          <a href="index.html" title="About">About</a>
+            </li>
                       <li class="none">
                           <a href="plugin-management.html" title="Plugin Management">Plugin Management</a>
             </li>
@@ -87,8 +85,8 @@
                           <a href="distribution-management.html" title="Distribution Management">Distribution Management</a>
             </li>
                       <li class="none">
-                          <a href="dependency-info.html" title="Dependency Information">Dependency Information</a>
-            </li>
+            <strong>Dependency Information</strong>
+          </li>
                       <li class="none">
                           <a href="source-repository.html" title="Source Repository">Source Repository</a>
             </li>
@@ -131,23 +129,44 @@
     </div>
     <div id="bodyColumn">
       <div id="contentBox">
-        <!-- Copyright 2013 Brian Thomas Matthews --><!--  --><!-- Licensed under the Apache License, Version 2.0 (the "License"); --><!-- you may not use this file except in compliance with the License. --><!-- You may obtain a copy of the License at --><!--  --><!-- http://www.apache.org/licenses/LICENSE-2.0 --><!--  --><!-- Unless required by applicable law or agreed to in writing, software --><!-- distributed under the License is distributed on an "AS IS" BASIS, --><!-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. --><!-- See the License for the specific language governing permissions and --><!-- limitations under the License. --><div class="section">
-<h2>JUnit Rules<a name="JUnit_Rules"></a></h2>
-<p><b>JUnit Rules</b> is a library of <a class="externalLink" href="http://junit.org">JUnit</a> rules that enhance JUnit test cases.</p>
-<ul>
-<li><a href="./examples/logging-rule.html">LoggingRule</a> generates log messages delineating the start and finish of each test case. Exceptions are also logged.</li></ul>
+        <div class="section">
+<h2>Dependency Information<a name="Dependency_Information"></a></h2><a name="Dependency_Information"></a>
 <div class="section">
-<h3>Maven Coordinates<a name="Maven_Coordinates"></a></h3>
-<p>The <b>JUnit Rules</b> has been published in <a class="externalLink" href="http://search.maven.org">Maven Central</a> at the following coordinates:</p>
-<div>
+<h3>Apache Maven<a name="Apache_Maven"></a></h3><a name="Apache_Maven"></a>
+<div class="source">
 <pre>&lt;dependency&gt;
-    &lt;groupId&gt;com.btmatthews.junit&lt;/groupId&gt;
-    &lt;artifactId&gt;junit-rules&lt;/artifactId&gt;
-    &lt;version&gt;1.0.0&lt;/version&gt;
+  &lt;groupId&gt;com.btmatthews.junit&lt;/groupId&gt;
+  &lt;artifactId&gt;junit-rules&lt;/artifactId&gt;
+  &lt;version&gt;1.0.0&lt;/version&gt;
 &lt;/dependency&gt;</pre></div></div>
 <div class="section">
-<h3>Licensing and Source Code<a name="Licensing_and_Source_Code"></a></h3>
-<p>The <b>JUnit Rules</b> is made available under the <a class="externalLink" href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License</a> and the source code is hosted on <a class="externalLink" href="http://github.com">GitHub</a> at <a class="externalLink" href="https://github.com/bmatthews68/junit-rules">https://github.com/bmatthews68/junit-rules</a>.</p></div></div>
+<h3>Apache Buildr<a name="Apache_Buildr"></a></h3><a name="Apache_Buildr"></a>
+<div class="source">
+<pre>'com.btmatthews.junit:junit-rules:jar:1.0.0'</pre></div></div>
+<div class="section">
+<h3>Apache Ant<a name="Apache_Ant"></a></h3><a name="Apache_Ant"></a>
+<div class="source">
+<pre>&lt;dependency org=&quot;com.btmatthews.junit&quot; name=&quot;junit-rules&quot; rev=&quot;1.0.0&quot;&gt;
+  &lt;artifact name=&quot;junit-rules&quot; type=&quot;jar&quot; /&gt;
+&lt;/dependency&gt;</pre></div></div>
+<div class="section">
+<h3>Groovy Grape<a name="Groovy_Grape"></a></h3><a name="Groovy_Grape"></a>
+<div class="source">
+<pre>@Grapes(
+@Grab(group='com.btmatthews.junit', module='junit-rules', version='1.0.0')
+)</pre></div></div>
+<div class="section">
+<h3>Grails<a name="Grails"></a></h3><a name="Grails"></a>
+<div class="source">
+<pre>compile 'com.btmatthews.junit:junit-rules:1.0.0'</pre></div></div>
+<div class="section">
+<h3>Leiningen<a name="Leiningen"></a></h3><a name="Leiningen"></a>
+<div class="source">
+<pre>[com.btmatthews.junit/junit-rules &quot;1.0.0&quot;]</pre></div></div>
+<div class="section">
+<h3>SBT<a name="SBT"></a></h3><a name="SBT"></a>
+<div class="source">
+<pre>libraryDependencies += &quot;com.btmatthews.junit&quot; %% &quot;junit-rules&quot; % &quot;1.0.0&quot;</pre></div></div></div>
       </div>
     </div>
     <div class="clear">
