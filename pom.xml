@@ -6,7 +6,7 @@
     </prerequisites>
     <groupId>com.btmatthews.junit</groupId>
     <artifactId>junit-rules</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>JUnit Rules</name>
     <description>Rules to extend JUnit</description>
     <inceptionYear>2013</inceptionYear>
@@ -240,7 +240,8 @@
         <url>scm:git:git@github.com:bmatthews68/junit-rules.git</url>
         <connection>scm:git:git@github.com:bmatthews68/junit4-rules.git</connection>
         <developerConnection>scm:git:git@github.com:bmatthews68/junit-rules.git</developerConnection>
-    </scm>
+      <tag>junit-rules-1.0.0</tag>
+  </scm>
     <url>https://github.com/bmatthews68/junit-rules</url>
     <organization>
         <name>Brian Thomas Matthews</name>
