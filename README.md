@@ -1,6 +1,8 @@
 JUnit Rules
 ===========
 
+![Build Status](https://codeship.com/projects/0ec65960-b5ae-0133-ac0b-4a56b254b363/status?branch=master)
+
 This library contains a collection of JUnit rules for enhancing JUnit test cases.
 
 LoggingRule
