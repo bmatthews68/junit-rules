@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation=" http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <prerequisites>
         <maven>3.1.0</maven>
     </prerequisites>
     <groupId>com.btmatthews.junit</groupId>
     <artifactId>junit-rules</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>JUnit Rules</name>
     <description>Rules to extend JUnit</description>
     <inceptionYear>2013</inceptionYear>
@@ -225,7 +226,7 @@
         <url>scm:git:git@github.com:bmatthews68/junit-rules.git</url>
         <connection>scm:git:git@github.com:bmatthews68/junit4-rules.git</connection>
         <developerConnection>scm:git:git@github.com:bmatthews68/junit-rules.git</developerConnection>
-        <tag>junit-rules-1.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
     <url>https://github.com/bmatthews68/junit-rules</url>
     <organization>
