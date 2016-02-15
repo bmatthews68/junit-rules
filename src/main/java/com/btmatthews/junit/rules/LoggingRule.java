@@ -53,11 +53,10 @@ public class LoggingRule implements TestRule {
     /**
      * Apply the test rule by building a wrapper {@link Statement} that logs a messages before and after evaluating
      * <code>statement</code> and if
-     * @param statement
-     * @param description
-     * @return
+     * @param statement The statement to be modified.
+     * @param description A description of the test implemented in <code>statement</code>.
+     * @return The modified statement.
      */
-    @Override
     public Statement apply(final Statement statement, final Description description) {
         return new Statement() {
             @Override
